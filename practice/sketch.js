@@ -1,7 +1,6 @@
 
 function setup() {
   let canvas = createCanvas(500, 400);
-  canvas.id("p5-canvas");
   canvas.parent("canvasContainer");
   background(0);
 
