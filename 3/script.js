@@ -38,7 +38,7 @@ function draw() {
 
 
     dia = dia + 0.5;
-    console.log(radDist);
+    //console.log(radDist);
 
     x = windowWidth / 2 + cosVal;
     y = windowHeight / 2 + sinVal;
@@ -47,6 +47,7 @@ function draw() {
     let modulo = frameCount % 80;
     fill(r, g, b);
     circle(x, y, modulo);
+    console.log(frameCount);
 
     radDist = radDist + 1;
 }
