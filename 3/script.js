@@ -26,7 +26,7 @@ function draw() {
     let sinVal = sin(angleRad) * radDist;
 
     let r = map(mouseX, windowWidth, windowHeight, 0, 255);
-    let g = map(mouseX, windowWidth, windowHeight, 0, 255 - 1);
+    let g = map(mouseX, windowWidth, windowHeight, 255, 0);
     let b = 0;
 
     dia = dia + 0.5;
