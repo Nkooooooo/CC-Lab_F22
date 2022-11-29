@@ -32,10 +32,12 @@ function draw() {
     // let g = map(mouseX, windowWidth, windowHeight, 255, 255);
     // let b = map(mouseX, windowWidth, windowHeight, 0, 0);
 
-    let r = 100;
-    let g = 100;
-    let b = 100;
 
+    let modulo = frameCount % 80;
+
+    let r = 252;
+    let g = map(modulo, 0, 80, 98, 252);
+    let b = 3;
 
     dia = dia + 0.5;
     //console.log(radDist);
@@ -44,7 +46,6 @@ function draw() {
     y = windowHeight / 2 + sinVal;
 
     noStroke();
-    let modulo = frameCount % 80;
     fill(r, g, b);
     circle(x, y, modulo);
     console.log(frameCount);
