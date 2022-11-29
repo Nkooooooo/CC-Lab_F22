@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../cclab-assets"
+		},
+		{
+			"path": "../4"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "4"
+	}
+}
