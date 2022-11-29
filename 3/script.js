@@ -10,7 +10,8 @@ let radDist = 0;
 
 function setup() {
 
-    createCanvas(windowWidth, windowHeight);
+    let canvas = createCanvas(400, 400)
+    canvas.parent("myContainer")
     background(153, 204, 255);
     frameRate(10);
 
