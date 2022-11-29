@@ -34,11 +34,12 @@ function draw() {
 
 
     let modulo = frameCount % 80;
+    console.log(modulo);
 
     let r = 252;
     let g = map(modulo, 0, 80, 98, 252);
     let b = 3;
-    console.log(r, g, b);
+    // console.log( g);
 
 
     dia = dia + 0.5;
