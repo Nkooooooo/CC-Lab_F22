@@ -2,3 +2,9 @@ body,
 p {
     background-color: aquamarine;
 }
+
+#explanation {
+    text-decoration: dashed;
+    color: rgb(42, 101, 165);
+    background-color: rgb(44, 218, 231);
+}
