@@ -30,7 +30,7 @@ function draw() {
 
     let r = map(mouseX, windowWidth, windowHeight, 0, 255);
     let g = map(mouseX, windowWidth, windowHeight, 255, 255);
-    let b = map(mouseX, windowWidth, windowHeight, 255, 0);
+    let b = map(mouseX, windowWidth, windowHeight, 0, 0);
 
     dia = dia + 0.5;
     console.log(radDist);
