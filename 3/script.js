@@ -41,7 +41,7 @@ function draw() {
     noStroke();
     let modulo = frameCount % 80;
     fill(r, g, b);
-    circle(windowHeight / 2, windowWidth / 2, modulo);
+    circle(windowWidth / 2, windowHeight / 2, modulo);
 
     radDist = radDist + 1;
 }

@@ -23,4 +23,5 @@ function draw() {
     blendMode(ADD)
     img(img, mouseX, mouseY)
     filter(THRESHOLD)
+
 }
