@@ -7,10 +7,12 @@ function buttonClicked() {
 let x, y;
 let dia = 0;
 let radDist = 0;
+let windowWidth = 800
+let windowHeight = 800
 
 function setup() {
 
-    let canvas = createCanvas(800, 800)
+    let canvas = createCanvas(windowWidth, windowHeight)
     canvas.parent("canvasContainer")
     background(153, 204, 255);
     frameRate(10);
