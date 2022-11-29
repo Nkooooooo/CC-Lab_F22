@@ -29,7 +29,7 @@ function draw() {
     let sinVal = sin(angleRad) * radDist;
 
     let r = map(mouseX, windowWidth, windowHeight, 0, 255);
-    let g = map(mouseX, windowWidth, windowHeight, 255, 0);
+    let g = map(mouseX, windowWidth, windowHeight, 255, 255);
     let b = 0;
 
     dia = dia + 0.5;
@@ -41,7 +41,7 @@ function draw() {
     noStroke();
     let modulo = frameCount % 80;
     fill(r, g, b);
-    circle(x, y, modulo);
+    circle(CENTER, CENTER, modulo);
 
     radDist = radDist + 1;
 }
