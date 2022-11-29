@@ -38,6 +38,8 @@ function draw() {
     let r = 252;
     let g = map(modulo, 0, 80, 98, 252);
     let b = 3;
+    console.log(r, g, b);
+
 
     dia = dia + 0.5;
     //console.log(radDist);
@@ -48,7 +50,6 @@ function draw() {
     noStroke();
     fill(r, g, b);
     circle(x, y, modulo);
-    console.log(frameCount);
 
     radDist = radDist + 1;
 }
