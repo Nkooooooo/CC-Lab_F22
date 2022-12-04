@@ -21,6 +21,7 @@ function setup() {
     canvas.parent("canvasContainer")
     background(153, 204, 255);
     frameRate(10);
+
 }
 
 // function mouseIsPressed() {
