@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  background-color: beige;
+  display: block;
+}
+
+.Click {
+  position: absolute;
+  right: 200px;
+  left: 410px;
+  top: 500px;
+  /* bottom:; */
+}
