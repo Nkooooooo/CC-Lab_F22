@@ -1,7 +1,9 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 30px;
+  padding: 30px;
+  position: absolute;
+  /* left: 200px; */
 }
 
 canvas {
@@ -15,4 +17,17 @@ canvas {
   left: 600px;
   top: 500px;
   /* bottom:;  */
+}
+
+#canvasContainer {
+  position: relative;
+  /* margin-left: 200px; */
+  margin-left: 120px;
+}
+
+.text {
+  text-align: center;
+  font-style: inherit;
+  margin-left: 400px;
+  margin-top: 0px;
 }
