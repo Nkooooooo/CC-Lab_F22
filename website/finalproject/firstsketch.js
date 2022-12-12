@@ -8,9 +8,9 @@ let angle = 0;
 // let goodShape=false
 
 function setup() {
-  createCanvas(1000, 600);
+  let canvas = createCanvas(1000, 600);
+  canvas.parent("canvasContainer");
   // background(255, 204, 255);
-
   points.push(new NominPoint(15, 405));
   points.push(new NominPoint(15, 405));
   points.push(new NominPoint(83, 405));

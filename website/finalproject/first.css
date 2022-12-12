@@ -15,3 +15,8 @@ canvas {
     left: 600px;
     top: 500px;
 }
+
+#image {
+    width: 100%;
+    height: auto;
+}
