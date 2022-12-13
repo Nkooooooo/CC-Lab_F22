@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 230, 255);
+}
+
+canvas {
+    display: block;
+}
+
+#canvasContainer {
+    position: absolute;
+    left: calc(50% - 500px);
+    top: calc(50% - 300px);
+}
+
+#img-bg {
+    width: 100%;
+    height: auto;
+}
+
+.btn-main {
+    width: 150px;
+    height: 100px;
+
+    position: absolute;
+    left: calc(50% - 75px);
+    top: calc(50% - 50px);
+
+    background: none;
+    border: none;
+}
+
+.btn-main-text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+}
+
+.main-text {
+    color: rgb(153, 102, 51);
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+#image2 {
+    position: absolute;
+    right: 300px;
+    left: 500px;
+    top: 350px;
+}
+
+.text {
+    text-align: center;
+    font-style: inherit;
+    /* left: 100px; */
+    margin-left: 400px;
+    /* margin-top: 0px; */
+}
