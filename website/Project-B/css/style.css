@@ -46,7 +46,6 @@ canvas {
     color: rgb(153, 102, 51);
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
-    /* margin-top: 0px; */
     margin-bottom: 550px;
 }
 
@@ -57,10 +56,10 @@ canvas {
     top: 350px;
 }
 
-.text {
+/* .text {
     text-align: center;
     font-style: inherit;
     /* left: 100px; */
-    margin-left: 400px;
-    /* margin-top: 0px; */
-}
+/* margin-left: 400px; */
+/* margin-top: 0px; 
+} */
